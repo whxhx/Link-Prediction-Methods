@@ -1,0 +1,60 @@
+UC Irvine forum network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the opsahl-ucforum network:
+
+This bipartite network contains user posts to forums. The users are students at the University of California, Irvine. An edge represents a forum message.  
+
+
+More information about the network is provided here: 
+http://konect.uni-koblenz.de/networks/opsahl-ucforum
+
+Files: 
+    meta.opsahl-ucforum -- Metadata about the network 
+    out.opsahl-ucforum -- The adjacency matrix of the network in space separated values format, with one edge per line
+      The meaning of the columns in out.opsahl-ucforum are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column: edge weight
+        Fourth column: timestamp of the edge
+
+
+Complete documentation about the file format can be found in the KONECT
+handbook, in the section File Formats, available at:
+
+http://konect.uni-koblenz.de/publications
+
+All files are licensed under a Creative Commons Attribution-ShareAlike 2.0 Germany License.
+For more information concerning license visit http://konect.uni-koblenz.de/license.
+
+
+
+Use the following References for citation:
+
+@MISC{konect:2016:opsahl-ucforum,
+    title = {UC Irvine forum network dataset -- {KONECT}},
+    month = sep,
+    year = {2016},
+    url = {http://konect.uni-koblenz.de/networks/opsahl-ucforum}
+}
+
+@article{konect:opsahl10,
+  author    = {Opsahl, Tore and Panzarasa, Pietro},
+  title     = {Triadic Closure in Two-mode Networks: Redefining the Global and Local Clustering Coefficients},
+journal = "Social Networks",
+volume = "34",
+year = "2011",
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.pdf}, 
+	url_presentation = {http://userpages.uni-koblenz.de/~kunegis/paper/kunegis-koblenz-network-collection.presentation.pdf},
+}
+
+
